@@ -1,0 +1,26 @@
+.navigation-menu {
+    background: #ececec;
+    min-height: 60px;
+    border-bottom: 1px solid #CCC;
+    .text-logo {
+        padding: 10px 25px 0;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .menu-toggler {
+        float: right;
+        padding-right: 25px;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+}
+
+.navigation-items {
+    scroll-padding-left: 0;
+    li {   
+        display: inline-block;
+        padding: 15px 10px 0;
+        list-style-type: none;
+    }
+}
